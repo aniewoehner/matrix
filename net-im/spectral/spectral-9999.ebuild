@@ -6,7 +6,7 @@ EAPI=7
 DESCRIPTION="A glossy client for Matrix, written in QtQuick Controls 2 and C++."
 HOMEPAGE="https://gitlab.com/b0/spectral"
 
-inherit eutils cmake-utils
+inherit eutils cmake
 
 if [[ ${PV} == "9999" ]]; then
 	inherit git-r3

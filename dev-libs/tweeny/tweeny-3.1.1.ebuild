@@ -6,7 +6,7 @@ EAPI=7
 DESCRIPTION="A modern C++ tweening library"
 HOMEPAGE="http://mobius3.github.io/tweeny"
 
-inherit eutils cmake-utils
+inherit eutils cmake
 
 if [[ ${PV} == "9999" ]]; then
 	inherit git-r3

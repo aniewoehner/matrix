@@ -6,7 +6,7 @@ EAPI=7
 DESCRIPTION="Client API library for Matrix, built on top of Boost.Asio"
 HOMEPAGE="https://github.com/Nheko-Reborn/mtxclient"
 
-inherit eutils cmake-utils
+inherit eutils cmake
 
 if [[ ${PV} == "9999" ]]; then
 	inherit git-r3

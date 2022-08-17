@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils xdg-utils
+inherit cmake xdg-utils
 
 DESCRIPTION="Desktop client for the Matrix protocol"
 HOMEPAGE="https://github.com/Nheko-Reborn/nheko"
